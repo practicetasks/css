@@ -20,7 +20,4 @@ button {
     cursor: pointer;
 }
 
-button:active::after {
-    /* Ниже вставьте скопированный код */
-    animation: change-bg 10s step-end infinite;
-}
+
