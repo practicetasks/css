@@ -1,0 +1,30 @@
+button::after {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+@keyframes change-bg {
+
+    0% {
+        background-image: url(img/1.png);
+    }
+
+    25% {
+        background-image: url(img/2.png);
+    }
+
+    50% {
+        background-image: url(img/3.png);
+    }
+
+    75% {
+        background-image: url(img/4.png);
+    }
+}
