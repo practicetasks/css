@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style>
+      * {
+          box-sizing: border-box;
+      }
+
+      html {
+          height: 100vh;
+      }
+
+      body {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          min-height: 100%;
+          margin: 0;
+          font-family: 'Open Sans', sans-serif;
+          font-size: 18px;
+          background-color: #000;
+      }
+
+      img {
+          width: 250px;
+          border: 10px solid #fff;
+      }
+  </style>
+</head>
+<body>
+<img
+    src="flowers.jpeg"
+    srcset="
+             flowers.jpeg 1x,
+             flowers-2x.jpeg 2x,
+             flowers-3x.jpeg 3x
+             "
+    alt="Букет ярких роз крупным планом"
+/>
+</body>
+</html>
