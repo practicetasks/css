@@ -54,6 +54,7 @@ textarea {
     font-size: inherit;
     background-color: transparent;
     resize: none;
+    margin: 0;
 }
 
 button {
