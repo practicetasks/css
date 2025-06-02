@@ -123,7 +123,7 @@
 }
 
 .form__checkbox:checked + .form__checkbox-item::before {
-    background: url('https://practicetasks.github.io/css/img/input/check.svg') center no-repeat;
+    background: url(https://practicetasks.github.io/css/img/input/check.svg) center no-repeat;
 }
 
 .content__title {
@@ -192,6 +192,7 @@
     -ms-transition: 0.3s;
     -o-transition: 0.3s;
     transition: 0.3s;
+    border: none;
 }
 
 .text-button {
